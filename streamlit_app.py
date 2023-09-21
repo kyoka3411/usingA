@@ -1,6 +1,10 @@
 import streamlit as st
 import pandas as pd
 
+# Read the CSV file from a different directory
+df = pd.read_csv("/path/to/learning_records.csv")
+
+
 # 学習記録のデータを読み込む
 df = pd.read_csv("learning_records.csv")
 
