@@ -51,4 +51,3 @@ if st.button("学習進捗を確認"):
 # 学習記録のグラフ化
 if st.button("学習記録をグラフ化"):
     show_learning_records_graph()
-ls -l learning_records.csv
